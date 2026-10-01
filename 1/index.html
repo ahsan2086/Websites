@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redox – Creative Agency and Portfolio WordPress Theme</title>
+  <meta name="description" content="Redox is a creative digital agency specializing in design, development, and marketing for global forward-thinking brands.">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Theme Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- Custom Cursor Follower -->
+  <div class="custom-cursor"></div>
+
+  <!-- Back to Top Progress Circle -->
+  <div class="progress-wrap">
+    <svg class="progress-circle" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+    </svg>
+  </div>
+
+  <!-- Header & Navigation -->
+  <header class="header-area">
+    <div class="header-inner">
+      <div class="header-logo">
+        <a href="index.html">
+          <img src="assets/img/redox-logo.png" alt="Redox Logo">
+        </a>
+      </div>
+
+      <nav class="main-menu">
+        <ul>
+          <li class="active">
+            <a href="index.html">Home</a>
+            <ul class="dp-menu">
+              <li><a href="#">Digital Agency</a></li>
+              <li><a href="#">Creative Agency</a></li>
+              <li><a href="#">Marketing Agency</a></li>
+              <li><a href="#">Design Agency</a></li>
+              <li><a href="#">Startup Agency</a></li>
+              <li><a href="#">Modern Agency</a></li>
+              <li><a href="#">Agency Portfolio</a></li>
+            </ul>
+          </li>
+          <li><a href="#about">About Us</a></li>
+          <li>
+            <a href="#services">Service</a>
+            <ul class="dp-menu">
+              <li><a href="#services">Core Services</a></li>
+              <li><a href="#services">Services ST. Pulse</a></li>
+              <li><a href="#services">Services ST. Morph</a></li>
+              <li><a href="#services">Services Details</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#portfolio">Pages</a>
+            <ul class="dp-menu">
+              <li><a href="#portfolio">Core Portfolio</a></li>
+              <li><a href="#portfolio">Portfolio Classic</a></li>
+              <li><a href="#clients">Team</a></li>
+              <li><a href="#stats">FAQ</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#cta">Blog</a>
+            <ul class="dp-menu">
+              <li><a href="#">Journal</a></li>
+              <li><a href="#">Case Studies</a></li>
+            </ul>
+          </li>
+          <li><a href="#footer">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#cta" class="rr-btn hover-bg-theme">
+          <span class="btn-wrap">
+            <span class="text-one">Let’s Talk</span>
+            <span class="text-two">Let’s Talk</span>
+          </span>
+        </a>
+        <button class="side-toggle-btn" aria-label="Open Mobile Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Offcanvas Drawer -->
+  <div class="offcanvas-overlay"></div>
+  <aside class="side-drawer">
+    <div class="side-drawer-header">
+      <img src="assets/img/redox-logo.png" alt="Redox" style="height: 26px;">
+      <button class="side-drawer-close" aria-label="Close Menu">
+        <i class="fa-solid fa-times"></i>
+      </button>
+    </div>
+    <ul class="mobile-nav-list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#stats">Activity</a></li>
+      <li><a href="#clients">Clients</a></li>
+      <li><a href="#footer">Contact</a></li>
+    </ul>
+    <div class="drawer-contact">
+      <h4>Contact Us</h4>
+      <p><i class="fa-solid fa-location-dot" style="margin-right: 8px;"></i> 3891 Ranchview Dr. Richardson</p>
+      <p><i class="fa-solid fa-envelope" style="margin-right: 8px;"></i> hello@arroxagency.com</p>
+      <p><i class="fa-solid fa-phone" style="margin-right: 8px;"></i> (505) 555-0125</p>
+    </div>
+  </aside>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+      <div class="container">
+        <div class="hero-content-grid">
+          <!-- Rotating Badge -->
+          <div class="circle-text-wrap">
+            <img src="assets/img/ax-hero-circle-text.webp" alt="Award Circle" class="text-rotate">
+            <img src="assets/img/ax-hero-circle-icon.webp" alt="Award Icon" class="icon-center">
+          </div>
+
+          <!-- Headline -->
+          <div class="hero-title-wrap">
+            <h2 class="hero-main-title">
+              Let’s sharpen your brand with
+              <span class="hero-pill-badge">
+                <img src="assets/img/ax-hero-shape-01.webp" alt="Badge Shape">
+              </span>
+              quality work
+            </h2>
+          </div>
+
+          <!-- Hero Stats & Narrative -->
+          <div class="hero-stats-side">
+            <div class="hero-metrics-row">
+              <div class="hero-metric-item">
+                <div class="stat-number">98%</div>
+                <div class="stat-desc">Average clients satisfied and repeating</div>
+              </div>
+              <div class="hero-metric-item">
+                <div class="stat-number">120+</div>
+                <div class="stat-desc">Successfully projects done in 24 countries</div>
+              </div>
+            </div>
+            <p class="hero-intro-text">
+              We’re a digital products design &amp; development agency that works passionately with digital experiences.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Giant REDOX Typography Overlapping Watermark -->
+      <div class="hero-watermark">
+        <h1>REDOX</h1>
+      </div>
+    </section>
+
+    <!-- About Agency Section -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="about-inner">
+          <div class="about-decor-pills">
+            <span class="decor-pill pill-orange"></span>
+            <span class="decor-pill pill-peach"></span>
+            <span class="decor-pill"></span>
+            <span class="decor-pill pill-orange"></span>
+          </div>
+
+          <div class="about-text-content">
+            <p>
+              We’re a dynamic startup agency specializing in innovative solutions for businesses looking to elevate their brand presence. We offer a range of services including digital marketing, branding, web development, and creative strategy to help companies flourish.
+            </p>
+            <a href="#services" class="rr-btn hover-bg-theme">
+              <span class="btn-wrap">
+                <span class="text-one">Learn More</span>
+                <span class="text-two">Learn More</span>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Showcase Video Section -->
+    <section class="showcase-video-section">
+      <video autoplay loop muted playsinline src="https://rrdevs.net/project-video/group-meeting.mp4"></video>
+    </section>
+
+    <!-- Infinite Marquee Ticker -->
+    <section class="ticker-section">
+      <div class="ticker-track">
+        <div class="ticker-item"><span class="dot"></span> Featured work</div>
+        <div class="ticker-item"><span class="dot"></span> Featured work</div>
+        <div class="ticker-item"><span class="dot"></span> Featured work</div>
+        <div class="ticker-item"><span class="dot"></span> Featured work</div>
+        <div class="ticker-item"><span class="dot"></span> Featured work</div>
+        <div class="ticker-item"><span class="dot"></span> Featured work</div>
+        <div class="ticker-item"><span class="dot"></span> Featured work</div>
+        <div class="ticker-item"><span class="dot"></span> Featured work</div>
+        <div class="ticker-item"><span class="dot"></span> Featured work</div>
+        <div class="ticker-item"><span class="dot"></span> Featured work</div>
+      </div>
+    </section>
+
+    <!-- Featured Work / Portfolio Section -->
+    <section class="portfolio-section" id="portfolio">
+      <div class="container">
+        <div class="portfolio-header-bar">
+          <div class="tag-left">Featured Work</div>
+          <div class="tag-center">Excellency in creative designs</div>
+          <div class="tag-right">(26)</div>
+        </div>
+
+        <div class="portfolio-grid">
+          <!-- Left Column -->
+          <div class="portfolio-col">
+            <!-- Project 1 -->
+            <a href="#portfolio" class="portfolio-card" data-cursor-text="View Project">
+              <div class="thumb-wrap">
+                <img src="assets/img/ax-portfolio-01.webp" alt="Panda Automap">
+              </div>
+              <h4 class="card-title">Panda Automap</h4>
+              <div class="card-category">Development — 2025</div>
+            </a>
+
+            <!-- Project 3 -->
+            <a href="#portfolio" class="portfolio-card" data-cursor-text="View Project">
+              <div class="thumb-wrap">
+                <img src="assets/img/ax-portfolio-03.webp" alt="Rebrand Lawberry">
+              </div>
+              <h4 class="card-title">Rebrand Lawberry</h4>
+              <div class="card-category">Motion, Design — 2025</div>
+            </a>
+
+            <!-- Project 5 -->
+            <a href="#portfolio" class="portfolio-card" data-cursor-text="View Project">
+              <div class="thumb-wrap">
+                <img src="assets/img/ax-portfolio-05.webp" alt="Mountain Upwork">
+              </div>
+              <h4 class="card-title">Mountain Upwork</h4>
+              <div class="card-category">Branding — 2025</div>
+            </a>
+          </div>
+
+          <!-- Right Column (Offset Down) -->
+          <div class="portfolio-col offset-down">
+            <!-- Project 2 -->
+            <a href="#portfolio" class="portfolio-card" data-cursor-text="View Project">
+              <div class="thumb-wrap">
+                <img src="assets/img/ax-portfolio-02.webp" alt="Saudi Venture Capital">
+              </div>
+              <h4 class="card-title">Saudi Venture Capital</h4>
+              <div class="card-category">Graphics — 2025</div>
+            </a>
+
+            <!-- Project 4 -->
+            <a href="#portfolio" class="portfolio-card" data-cursor-text="View Project">
+              <div class="thumb-wrap">
+                <img src="assets/img/ax-portfolio-04.webp" alt="Selicon Cloud Cave">
+              </div>
+              <h4 class="card-title">Selicon Cloud Cave</h4>
+              <div class="card-category">UI Design — 2025</div>
+            </a>
+
+            <!-- Project 6 -->
+            <a href="#portfolio" class="portfolio-card" data-cursor-text="View Project">
+              <div class="thumb-wrap">
+                <img src="assets/img/ax-portfolio-06.webp" alt="Blacky Motorola">
+              </div>
+              <h4 class="card-title">Blacky Motorola</h4>
+              <div class="card-category">UI Design — 2025</div>
+            </a>
+          </div>
+        </div>
+
+        <div class="portfolio-cta-row">
+          <a href="#portfolio" class="rr-btn hover-bg-theme">
+            <span class="btn-wrap">
+              <span class="text-one">View All Work</span>
+              <span class="text-two">View All Work</span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Complex Proficiency (Services) Section -->
+    <section class="services-section" id="services">
+      <div class="container">
+        <h2 class="services-title">Complex<br>proficiency</h2>
+
+        <div class="services-list">
+          <!-- Row 01 -->
+          <div class="service-row" data-cursor-text="Explore">
+            <div class="service-num">(01)</div>
+            <div class="service-name"><a href="#services">Branding</a></div>
+            <ul class="service-subtags">
+              <li>Creative Direction</li>
+              <li>Brand Identity</li>
+              <li>Branding Strategy</li>
+              <li>Graphic Design</li>
+              <li>Startup</li>
+            </ul>
+            <div class="service-image-preview">
+              <img src="assets/img/ax-service-01.webp" alt="Branding">
+            </div>
+          </div>
+
+          <!-- Row 02 -->
+          <div class="service-row" data-cursor-text="Explore">
+            <div class="service-num">(02)</div>
+            <div class="service-name"><a href="#services">UI-UX Design</a></div>
+            <ul class="service-subtags">
+              <li>UI UX Consulting</li>
+              <li>UX Research</li>
+              <li>Usability Testing</li>
+              <li>Wireframing</li>
+              <li>Prototyping</li>
+            </ul>
+            <div class="service-image-preview">
+              <img src="assets/img/ax-service-03.webp" alt="UI-UX Design">
+            </div>
+          </div>
+
+          <!-- Row 03 -->
+          <div class="service-row" data-cursor-text="Explore">
+            <div class="service-num">(03)</div>
+            <div class="service-name"><a href="#services">Development</a></div>
+            <ul class="service-subtags">
+              <li>WordPress</li>
+              <li>Webflow</li>
+              <li>Laravel Framework</li>
+              <li>React &amp; Flutter</li>
+              <li>Design System</li>
+            </ul>
+            <div class="service-image-preview">
+              <img src="assets/img/ax-service-02.webp" alt="Development">
+            </div>
+          </div>
+
+          <!-- Row 04 -->
+          <div class="service-row" data-cursor-text="Explore">
+            <div class="service-num">(04)</div>
+            <div class="service-name"><a href="#services">Digital Marketing</a></div>
+            <ul class="service-subtags">
+              <li>Online Marketing</li>
+              <li>SEO-Marketing</li>
+              <li>Strategy</li>
+              <li>Market Research</li>
+              <li>Social Reform</li>
+            </ul>
+            <div class="service-image-preview">
+              <img src="assets/img/ax-service-04.webp" alt="Digital Marketing">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Perfect Activity (Sticky Dark Numbers Section) -->
+    <section class="stats-section" id="stats">
+      <div class="container">
+        <div class="stats-inner-grid">
+          <div class="stats-sticky-col">
+            <h2 class="stats-sticky-title">Perfect<br>—activity</h2>
+          </div>
+
+          <div class="stats-list-col">
+            <div class="stat-item-block">
+              <div class="number">1.8M</div>
+              <div class="description">We helped companies secure over $200M+ in funding.</div>
+            </div>
+
+            <div class="stat-item-block">
+              <div class="number">12+</div>
+              <div class="description">We have had quite a run in our 12+ years of continuous innovation.</div>
+            </div>
+
+            <div class="stat-item-block">
+              <div class="number">99%</div>
+              <div class="description">Average 99% client satisfaction rate driven by our design expertise.</div>
+            </div>
+
+            <div class="stat-item-block">
+              <div class="number">260+</div>
+              <div class="description">Crafted responsive, user-centered websites &amp; custom applications.</div>
+            </div>
+
+            <div class="stat-item-block">
+              <div class="number">80+</div>
+              <div class="description">Professional skilled designers and creative technologists worldwide.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Client Brands Section -->
+    <section class="clients-section" id="clients">
+      <div class="clients-grid-lines">
+        <div class="vline"></div>
+        <div class="vline"></div>
+        <div class="vline"></div>
+        <div class="vline"></div>
+        <div class="vline"></div>
+      </div>
+
+      <div class="container">
+        <div class="clients-heading-wrap">
+          <h2><span>Client:</span> Helping brands to grow and say their success stories to the world.</h2>
+        </div>
+
+        <p class="clients-desc">
+          We’re a passionate team of creatives with strongest capabilities to help progressive fields achieve their goals, pairing best talent with every project.
+        </p>
+
+        <!-- Interactive Capsule Badges -->
+        <div class="capsule-box-cloud">
+          <div class="client-capsule" data-cursor-text="Partner"><img src="assets/img/client-9-light.webp" alt="Client Logo"></div>
+          <div class="client-capsule" data-cursor-text="Partner"><img src="assets/img/client-10.webp" alt="Client Logo"></div>
+          <div class="client-capsule" data-cursor-text="Partner"><img src="assets/img/client-11.webp" alt="Client Logo"></div>
+          <div class="client-capsule" data-cursor-text="Partner"><img src="assets/img/client-12-light.webp" alt="Client Logo"></div>
+          <div class="client-capsule" data-cursor-text="Partner"><img src="assets/img/client-13.webp" alt="Client Logo"></div>
+          <div class="client-capsule" data-cursor-text="Partner"><img src="assets/img/client-14.webp" alt="Client Logo"></div>
+          <div class="client-capsule" data-cursor-text="Partner"><img src="assets/img/client-15-light.webp" alt="Client Logo"></div>
+          <div class="client-capsule" data-cursor-text="Partner"><img src="assets/img/client-16-light.webp" alt="Client Logo"></div>
+          <div class="client-capsule" data-cursor-text="Partner"><img src="assets/img/client-17.webp" alt="Client Logo"></div>
+          <div class="client-capsule" data-cursor-text="Partner"><img src="assets/img/client-18-light.webp" alt="Client Logo"></div>
+          <div class="client-capsule" data-cursor-text="Partner"><img src="assets/img/client-19.webp" alt="Client Logo"></div>
+          <div class="client-capsule" data-cursor-text="Partner"><img src="assets/img/client-20-light.webp" alt="Client Logo"></div>
+          <div class="client-capsule" data-cursor-text="Partner"><img src="assets/img/client-21.webp" alt="Client Logo"></div>
+          <div class="client-capsule" data-cursor-text="Partner"><img src="assets/img/client-22.webp" alt="Client Logo"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Let's Work CTA Section -->
+    <section class="cta-work-section" id="cta">
+      <div class="container">
+        <h2 class="cta-huge-title">
+          <a href="#footer">Let’s Work</a>
+        </h2>
+      </div>
+    </section>
+
+    <!-- Productivity Typography Statement Banner -->
+    <section class="productivity-section">
+      <div class="container">
+        <h2 class="productivity-statement">
+          It’s all about the unique
+          <span class="statement-shape-pill"><img src="assets/img/ax-quote-shape-02.webp" alt="Thinking"></span>
+          with
+          <span class="statement-shape-pill"><img src="assets/img/ax-quote-shape-01.webp" alt="Creativity"></span>
+          and
+          <span class="statement-shape-pill"><img src="assets/img/ax-quote-shape-03.webp" alt="Quality"></span>
+          for complex solution in easy way
+        </h2>
+      </div>
+    </section>
+
+    <!-- Full Width Parallax Showcase Banner -->
+    <section class="parallax-banner-section">
+      <img src="assets/img/ax-parallax-image-01.webp" alt="Creative Parallax View">
+    </section>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer" id="footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div class="footer-brand-side">
+          <div class="footer-logo">
+            <a href="index.html">
+              <img src="assets/img/black-logo.png" alt="Redox Agency">
+            </a>
+          </div>
+          <p class="footer-desc">
+            Redox is a startup digital agency of design, development and marketing that works friendly with global clients.
+          </p>
+          <div class="footer-email-wrap">
+            <a href="mailto:info@redox.com" class="footer-email-link">info@redox.com</a>
+          </div>
+        </div>
+
+        <div class="footer-form-side">
+          <div class="footer-newsletter-wrap">
+            <form class="footer-newsletter-form" action="#" method="post">
+              <input type="email" placeholder="Enter your email" required>
+              <button type="submit" aria-label="Subscribe">
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </form>
+            <div class="footer-privacy-text">
+              By subscribing you agree with our <a href="#">Privacy Policy</a>
+            </div>
+          </div>
+
+          <div class="footer-links-grid">
+            <div class="footer-col">
+              <h5>Company</h5>
+              <ul>
+                <li><a href="#about">Agency</a></li>
+                <li><a href="#services">Solutions</a></li>
+                <li><a href="#portfolio">Creative</a></li>
+                <li><a href="#portfolio">Work</a></li>
+                <li><a href="#footer">Contact</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-col">
+              <h5>Social</h5>
+              <ul>
+                <li><a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a></li>
+                <li><a href="https://x.com" target="_blank" rel="noopener">Twitter</a></li>
+                <li><a href="https://dribbble.com" target="_blank" rel="noopener">Dribbble</a></li>
+                <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+                <li><a href="https://pinterest.com" target="_blank" rel="noopener">Pinterest</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-col">
+              <h5>Office</h5>
+              <ul>
+                <li><a href="#">New York</a></li>
+                <li><a href="#">Toronto</a></li>
+                <li><a href="#">Berlin</a></li>
+                <li><a href="#">London</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <p>© 2025 <a href="#">RavexTheme.</a> All right reserved</p>
+        <p>Crafted with precision &amp; modern web standards</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Theme Interactive Scripts -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
